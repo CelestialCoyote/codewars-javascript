@@ -17,15 +17,13 @@ function findOutlier(integers) {
 		outlier = integers.filter(num => num %2 !== 0);
 	}
 
-	console.log(`evens = ${evens.length}`);
-	console.log(`odds =  ${odds.length}`);
-	console.log(outlier[0]);
+	return outlier[0];
 };
 
-findOutlier(array1);
-findOutlier(array2);
-findOutlier(array3);
-findOutlier(array4);
-findOutlier(array5);
-findOutlier(array6);
-findOutlier(array7);
+console.log(findOutlier(array1));
+console.log(findOutlier(array2));
+console.log(findOutlier(array3));
+console.log(findOutlier(array4));
+console.log(findOutlier(array5));
+console.log(findOutlier(array6));
+console.log(findOutlier(array7));
