@@ -2,13 +2,9 @@
 
 function getStatus(isBusy) {
 	var msg = (isBusy ? "busy" : "available");
-
-	let object = {
-		status: msg
-	};
 	
-	return object;
+	return { status: msg};
 };
 
 
-console.log(getStatus(true));
+console.log(getStatus(false));
